@@ -1,5 +1,5 @@
 <?php
-    $message;
+global $message;
     session_start();
     if (!isset($_SESSION['username'])) {
         echo "<table>
